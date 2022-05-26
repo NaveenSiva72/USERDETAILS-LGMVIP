@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Rampart+One&family=Slabo+27px&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+
+background-size: cover ; 
+background-repeat: no-repeat;
+
+background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
+
+}
+  .main {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    height: 70px;
+    padding: 20px;
+    padding-top: 20px;
+  }
+  h1 {
+    float: left;
+    padding: 10px;
+    color: white;
+    cursor:pointer;
+    border-radius: 15px;
+  }
+  .app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+  }
+    #li {
+        margin: 0 1rem;
+        cursor: pointer;
+        flex-direction: column;
+    }
+        #at {
+            color: #0d0d0d;
+            text-decoration: none;
+            flex-direction: column;
+            text-transform: uppercase;
+            font-weight: 800;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+
+        }
+        app__navbar-logo {
+          display: flex;
+          justify-content: flex-start;
+          align-items: left;
+      
+         
+      }
+      #img {
+        width: 100px;;
+    }
+
+  .btn {
+    float: left;
+    margin-left: 50%;
+    padding: 10px;
+    background-color:#0d0d0d;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .btn:hover {
+    background-color:black;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  }
+  .row {
+    margin-top: -20px;
+    margin-left: 100px;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10 10px;
+    margin: 20px;
+  }
+  .card {
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    padding: 30px;
+    text-align: center;
+    background-color: #0d0d0d;
+    border-radius: 15px 50px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .card-img-top {
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    border: 4px solid rgb(238, 26, 26);
+  }
+  .card-title {
+    font-family: LibreBaskerville;
+    font-size: 23px;
+    color: white;
+  }
+  .card-text {
+    color: grey;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+  }
+  .card:hover{
+    box-shadow: 4px 3px ;
+    cursor: pointer;
+  }
+  .card:hover .card-text{
+    color: rgb(19, 229, 236);
+
+  }
